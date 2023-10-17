@@ -12,7 +12,7 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar bg='dark' variant='dark' expand='lg'>
+      <Navbar className='NavBarImg' bg='dark' variant='dark' expand='lg'>
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
             <span className='NavBarStyling'>NOVELISTA</span>
