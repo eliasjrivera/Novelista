@@ -15,29 +15,34 @@ Book.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        authors: [
-            {
+        // i have deleted the [] that goes around {type: DataTypes.STRING, allowNull: false,}; look at MERN example for how it was
+        authors: {
             type: DataTypes.STRING,
-            },
-        ],
+            allowNull: false,
+        },
         description: {
             type: DataTypes.STRING,
             required: true,
+            allowNull: false,
         },
         // saved book id from GoogleBooks
         bookId: {
             type: DataTypes.STRING,
             required: true,
+            allowNull: false,
         },
         image: {
             type: DataTypes.STRING,
+            allowNull: false,
         },
         link: {
             type: DataTypes.STRING,
+            allowNull: false,
         },
         title: {
             type: DataTypes.STRING,
             required: true,
+            allowNull: false,
         },
         user_id: {
             type: DataTypes.INTEGER,
