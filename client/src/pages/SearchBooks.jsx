@@ -87,7 +87,7 @@ const SearchBooks = () => {
 
   return (
     <>
-      <div className="text-light bg-black p-5 SearchBarImg">
+      <div className="text-light bg-black p-5 searchBarImg">
         <Container>
           <h1>Search for Books!</h1>
           <Form onSubmit={handleFormSubmit}>
@@ -103,7 +103,7 @@ const SearchBooks = () => {
                 />
               </Col>
               <Col xs={12} md={4}>
-                <Button type='submit' variant='success' size='lg'>
+                <Button type='submit' variant='success' size='lg' className='btnStyling'>
                   Submit Search
                 </Button>
               </Col>

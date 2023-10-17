@@ -12,10 +12,10 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar className='NavBarImg' bg='dark' variant='dark' expand='lg'>
+      <Navbar className='navBarImg' bg='dark' variant='dark' expand='lg'>
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
-            <span className='NavBarStyling'>NOVELISTA</span>
+            <span className='navBarStyling'>NOVELISTA</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar' className='d-flex flex-row-reverse'>

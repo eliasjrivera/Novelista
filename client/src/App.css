@@ -17,17 +17,29 @@ h6 {
   font-style: italic;
 }
 
-.NavBarStyling {
+.navBarStyling {
   color: #FF4C00;
   font-family: 'Rubik Wet Paint', sans-serif;
   font-size: 100px;
   padding-left: 30px;
 }
 
-.NavBarImg {
+.navBarImg {
   background-image: url(../public/NavBarImg.png)!important;
 }
 
-.SearchBarImg {
+.searchBarImg {
   background-image: url(../public/BodyImg.jpg)!important;
+}
+
+.btnStyling {
+  background-color: #FF4C00;
+  color: white;
+  border: none;
+}
+
+.btnStyling:hover {
+  background-color: #FF4C00;
+  color: white;
+  border: none;
 }
