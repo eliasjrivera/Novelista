@@ -2,7 +2,7 @@ const router = require('express').Router();
 // import user model
 const { User } = require('../../models');
 // import sign token function from auth
-const { signToken, authMiddleware } = require('../utils/auth');
+const { signToken, authMiddleware } = require('../../utils/auth');
 
 // i have not added session.save to anything, this is used in MVC ACT 28 Main Controller > userRoutes.js
 
