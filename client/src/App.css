@@ -17,6 +17,7 @@ h6 {
   font-style: italic;
 }
 
+/* Nav Bar Styling */
 .navBarStyling {
   color: #FF4C00;
   font-family: 'Rubik Wet Paint', sans-serif;
@@ -28,8 +29,18 @@ h6 {
   background-image: url(../public/NavBarImg.png)!important;
 }
 
+.navLinkStyling {
+  color: white;
+}
+
+/* Search Bar Styling */
 .searchBarImg {
   background-image: url(../public/BodyImg.jpg)!important;
+}
+
+.searchBarStyling {
+  font-family: 'Rubik Distressed', sans-serif;
+  font-size: 50px;
 }
 
 .btnStyling {
@@ -44,12 +55,10 @@ h6 {
   border: none;
 }
 
+/* Search Body Styling */
 .searchBodyStyling {
   color: white;
   font-family: 'Rubik Distressed', sans-serif;
   font-size: 60px;
 }
 
-.navLinkStyling {
-  color: white;
-}
