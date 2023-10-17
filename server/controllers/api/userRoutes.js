@@ -63,10 +63,11 @@ router.post('/login', async ({ body }, res) => {
         }
 });
 
+// maybe switch these to post?
 router.put('/', authMiddleware, async ({ user, body }, res) => {
     console.log(user);
     try {
-        const updatedUser = await User.findOneAndUpdate(
+        const updatedUser = await User.Update(
             { _id: user._id },
             { $addToSet: { savedBooks: body } },
             { new: true, runValidators: true }
