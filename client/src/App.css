@@ -1,5 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
+  background-image: url(../public/BodyImg.jpg)!important;
 }
 
 h1,
@@ -25,4 +26,8 @@ h6 {
 
 .NavBarImg {
   background-image: url(../public/NavBarImg.png)!important;
+}
+
+.SearchBarImg {
+  background-image: url(../public/BodyImg.jpg)!important;
 }
