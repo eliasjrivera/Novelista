@@ -113,7 +113,7 @@ const SearchBooks = () => {
       </div>
 
       <Container>
-        <h2 className='pt-5'>
+        <h2 className='pt-5 searchBodyStyling'>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
             : 'Search for a book to begin'}
