@@ -10,8 +10,11 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// i didnt use below code in Planeta to get it running, fyi
-app.use(express.static(path.join(__dirname, 'public')));
+
+// if we're in production, serve client/build as static assets
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../client/build')));
+}
 
 app.use(routes);
 
