@@ -1,6 +1,6 @@
 const router = require('express').Router();
 // import user model
-const { User } = require('../models');
+const { User } = require('../../models');
 // import sign token function from auth
 const { signToken, authMiddleware } = require('../utils/auth');
 
