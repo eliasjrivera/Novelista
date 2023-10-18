@@ -36,6 +36,13 @@ h6 {
   font-weight: bolder;
 }
 
+.cartStyling {
+  font-size: 30px;
+  color: #FC0;
+  text-shadow: #FC0 1px 0 10px;  
+  font-weight: bolder;
+}
+
 /* Search Bar/Search Body Styling */
 .searchBarImg {
   background-image: url(../public/BodyImg.jpg)!important;

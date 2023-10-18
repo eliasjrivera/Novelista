@@ -6,6 +6,8 @@ import LoginForm from './LoginForm';
 
 import Auth from '../utils/auth';
 
+import { BsCart2 } from 'react-icons/bs'
+
 const AppNavbar = () => {
   // set modal display state
   const [showModal, setShowModal] = useState(false);
@@ -21,13 +23,13 @@ const AppNavbar = () => {
           <Navbar.Collapse id='navbar' className='d-flex flex-row-reverse'>
             <Nav className='ml-auto d-flex'>
               <Nav.Link as={Link} to='/'>
-                <span className='navLinkStyling'>SEARCH FOR BOOKS</span>
+                <span className='navLinkStyling'>SEARCH NOVELISTA</span>
               </Nav.Link>
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
                   <Nav.Link as={Link} to='/saved'>
-                  <span className='navLinkStyling'>CART</span>
+                  <BsCart2 className='cartStyling'></BsCart2>
                   </Nav.Link>
                   <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>LOGOUT</span></Nav.Link>
                 </>
