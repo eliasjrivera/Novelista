@@ -27,9 +27,9 @@ const AppNavbar = () => {
               {Auth.loggedIn() ? (
                 <>
                   <Nav.Link as={Link} to='/saved'>
-                  <span className='navLinkStyling'>See Your Books</span>
+                  <span className='navLinkStyling'>CART</span>
                   </Nav.Link>
-                  <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>Logout</span></Nav.Link>
+                  <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>LOGOUT</span></Nav.Link>
                 </>
               ) : (
                 <Nav.Link onClick={() => setShowModal(true)}><span className='navLinkStyling'>LOGIN/SIGN UP</span></Nav.Link>
