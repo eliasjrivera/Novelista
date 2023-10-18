@@ -32,6 +32,7 @@ h6 {
 .navLinkStyling {
   color: white;
   font-size: 22px;
+  text-shadow: #FC0 1px 0 10px;  
   font-weight: bolder;
 }
 
