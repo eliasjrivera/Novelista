@@ -1,6 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
-  background-image: url(../public/BodyImg.jpg)!important;
+  background-image: url(../BodyImg.jpg)!important;
 }
 
 h1,
@@ -26,7 +26,7 @@ h6 {
 }
 
 .navBarImg {
-  background-image: url(../public/NavBarImg.png)!important;
+  background-image: url(../NavBarImg.png)!important;
 }
 
 .navLinkStyling {
@@ -59,7 +59,7 @@ h6 {
 
 /* Search Bar/Search Body Styling */
 .searchBarImg {
-  background-image: url(../public/BodyImg.jpg)!important;
+  background-image: url(../BodyImg.jpg)!important;
 }
 
 .searchBarStyling {
