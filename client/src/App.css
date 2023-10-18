@@ -60,6 +60,10 @@ h6 {
   font-weight: bolder;
 }
 
+.btnStyling:active {
+  background-color: #ffcc00 !important;
+}
+
 /* Search Body Styling */
 .searchBodyStyling {
   color: white;

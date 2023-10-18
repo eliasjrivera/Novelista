@@ -11,6 +11,7 @@ import {
 import Auth from '../utils/auth';
 import { saveBook, searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
+import { ImSearch } from "react-icons/im";
 
 const SearchBooks = () => {
   // create state for holding returned google api data
@@ -104,7 +105,7 @@ const SearchBooks = () => {
               </Col>
               <Col xs={12} md={4}>
                 <Button type='submit' variant='success' size='lg' className='btnStyling'>
-                  Submit Search
+                <ImSearch ></ImSearch>
                 </Button>
               </Col>
             </Row>
