@@ -71,9 +71,16 @@ h6 {
   font-size: 60px;
 }
 
-/* Login/Sign Up Styling */
+/* Login/Sign Up Modal Button Styling */
 .signUpModal {
   color: white !important;
   background-color: #ff4d00 !important;
   border: none;
+}
+
+/* Wrong Page! Styling */
+.wrongPageStyling {
+  color: white;
+  font-family: 'Rubik Distressed', sans-serif;
+  font-size: 100px;
 }
