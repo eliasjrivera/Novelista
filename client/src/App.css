@@ -70,19 +70,19 @@ h6 {
 .btnStyling {
   background-color: #FF4C00;
   color: white;
-  border: none;
+  border-color: #FF4C00;
   font-weight: bolder;
 }
 
 .btnStyling:hover {
-  background-color: #FF4C00;
+  background-color: #ffcc00;
   color: white;
-  border: none;
+  border-color: #ffcc00;
   font-weight: bolder;
 }
 
 .btnStyling:active {
-  background-color: #ffcc00 !important;
+  background-color: #FF4C00 !important;
 }
 
 /* Search Body Styling */
@@ -90,6 +90,11 @@ h6 {
   color: white;
   font-family: 'Rubik Distressed', sans-serif;
   font-size: 60px;
+}
+
+.cartBtnStyling:hover {
+  background-color: #0088ff;
+  border-color: #0088ff;
 }
 
 /* Login/Sign Up Modal Button Styling */
