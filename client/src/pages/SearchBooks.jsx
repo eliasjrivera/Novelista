@@ -117,7 +117,7 @@ const SearchBooks = () => {
         <h2 className='pt-5 searchBodyStyling'>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
-            : 'SEARCH FOR A BOOK TO BEGIN!'}
+            : 'LOGIN OR SIGN UP TO SHOP!'}
         </h2>
         <Row>
           {searchedBooks.map((book) => {
