@@ -71,3 +71,9 @@ h6 {
   font-size: 60px;
 }
 
+/* Login/Sign Up Styling */
+.signUpModal {
+  color: white !important;
+  background-color: #ff4d00 !important;
+  border: none;
+}
