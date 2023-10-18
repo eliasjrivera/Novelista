@@ -36,9 +36,23 @@ h6 {
   font-weight: bolder;
 }
 
+.navLinkStyling:hover {
+  color: rgb(255, 210, 162);
+  font-size: 22px;
+  text-shadow: #FC0 1px 0 10px;  
+  font-weight: bolder;
+}
+
 .cartStyling {
   font-size: 30px;
-  color: #FC0;
+  color: white;
+  filter: drop-shadow(1px 3px 2px #FC0);  
+  font-weight: bolder;
+}
+
+.cartStyling:hover {
+  font-size: 30px;
+  color: rgb(255, 210, 162);
   text-shadow: #FC0 1px 0 10px;  
   font-weight: bolder;
 }
@@ -85,9 +99,30 @@ h6 {
   border: none;
 }
 
+.signUpModal:hover {
+  color: white !important;
+  background-color:  #FC0 !important;
+  border: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #ff4d00 !important;
+}
+
+.nav-link {
+color: black;
+}
+
+.nav-link:hover {
+  color: #FC0;
+  }
+
 /* Wrong Page! Styling */
 .wrongPageStyling {
   color: white;
   font-family: 'Rubik Distressed', sans-serif;
   font-size: 100px;
 }
+
+
