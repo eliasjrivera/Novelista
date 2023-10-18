@@ -21,7 +21,7 @@ const AppNavbar = () => {
           <Navbar.Collapse id='navbar' className='d-flex flex-row-reverse'>
             <Nav className='ml-auto d-flex'>
               <Nav.Link as={Link} to='/'>
-                <span className='navLinkStyling'>Search For Books</span>
+                <span className='navLinkStyling'>SEARCH FOR BOOKS</span>
               </Nav.Link>
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
@@ -32,7 +32,7 @@ const AppNavbar = () => {
                   <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>Logout</span></Nav.Link>
                 </>
               ) : (
-                <Nav.Link onClick={() => setShowModal(true)}><span className='navLinkStyling'>Login/Sign Up</span></Nav.Link>
+                <Nav.Link onClick={() => setShowModal(true)}><span className='navLinkStyling'>LOGIN/SIGN UP</span></Nav.Link>
               )}
             </Nav>
           </Navbar.Collapse>
