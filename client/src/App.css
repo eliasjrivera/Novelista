@@ -68,16 +68,16 @@ h6 {
 }
 
 .btnStyling {
-  background-color: #FF4C00;
-  color: white;
-  border-color: #FF4C00;
+  background-color: white;
+  color: black;
+  border-color: black;
   font-weight: bolder;
 }
 
 .btnStyling:hover {
-  background-color: #ffcc00;
+  background-color: #FF4C00;
   color: white;
-  border-color: #ffcc00;
+  border-color: #FF4C00;
   font-weight: bolder;
 }
 
