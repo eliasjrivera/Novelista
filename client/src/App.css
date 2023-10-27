@@ -97,7 +97,12 @@ h6 {
   border-color: #0088ff;
 }
 
-/* Login/Sign Up Modal Button Styling */
+.cardSignInStyle {
+  font-family: 'Rubik', sans-serif;
+  color: red;
+}
+
+/* Sign In Modal Button Styling */
 .signUpModal {
   color: white !important;
   background-color: black !important;
