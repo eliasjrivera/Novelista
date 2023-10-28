@@ -51,7 +51,7 @@ const SearchBooks = () => {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         image: book.volumeInfo.imageLinks?.thumbnail || '',
-        buy: book.saleInfo.buyLink || ['Not available to purchase'],
+        buy: book.saleInfo.buyLink ||= ['Not Available'],
       }));
 
       console.log(bookData)
@@ -144,9 +144,7 @@ const SearchBooks = () => {
                       //     ? 'This book has already been added!'
                       //     : 'Add to Cart!'}
                       // </Button>
-                      <p className='small'>Purchase Options:
-                        <a href={book.buy}> {book.buy}</a>
-                      </p>
+                      <Button href={book.buy} className='buyBtn'>Buy Now</Button>
                     )}
                   </Card.Body>
                 </Card>

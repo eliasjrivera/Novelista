@@ -102,6 +102,16 @@ h6 {
   color: red;
 }
 
+.buyBtn {
+  background-color: rgb(42, 42, 42) !important;
+  border:rgb(42, 42, 42) !important;
+}
+
+.buyBtn:hover {
+  background-color: black !important;
+  border: black !important;
+}
+
 /* Sign In Modal Button Styling */
 .signUpModal {
   color: white !important;

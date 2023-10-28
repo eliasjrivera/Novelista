@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <h1 className='display-2 wrongPageStyling'>WRONG PAGE!</h1>,
+    errorElement: <h1 className='display-2 wrongPageStyling'>UNAVAILABLE!</h1>,
     children: [
       {
         index: true,
