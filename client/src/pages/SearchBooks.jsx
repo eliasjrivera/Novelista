@@ -51,7 +51,10 @@ const SearchBooks = () => {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         image: book.volumeInfo.imageLinks?.thumbnail || '',
+        buy: book.saleInfo.buyLink || ['Not available to purchase'],
       }));
+
+      console.log(bookData)
 
       setSearchedBooks(bookData);
       setSearchInput('');
@@ -131,16 +134,19 @@ const SearchBooks = () => {
                     <Card.Title>{book.title}</Card.Title>
                     <p className='small'>Authors: {book.authors}</p>
                     <Card.Text>{book.description}</Card.Text>
-                    <p className='cardSignInStyle'>Sign In to Purchase</p>
+                    {/* <p className='cardSignInStyle'>Sign In to Purchase</p> */}
                     {Auth.loggedIn() && (
-                      <Button
-                        disabled={savedBookIds?.some((savedBookId) => savedBookId === book.bookId)}
-                        className='btn-block btn-info text-white cartBtnStyling'
-                        onClick={() => handleSaveBook(book.bookId)}>
-                        {savedBookIds?.some((savedBookId) => savedBookId === book.bookId)
-                          ? 'This book has already been added!'
-                          : 'Add to Cart!'}
-                      </Button>
+                      // <Button
+                      //   disabled={savedBookIds?.some((savedBookId) => savedBookId === book.bookId)}
+                      //   className='btn-block btn-info text-white cartBtnStyling'
+                      //   onClick={() => handleSaveBook(book.bookId)}>
+                      //   {savedBookIds?.some((savedBookId) => savedBookId === book.bookId)
+                      //     ? 'This book has already been added!'
+                      //     : 'Add to Cart!'}
+                      // </Button>
+                      <p className='small'>Purchase Options:
+                        <a href={book.buy}> {book.buy}</a>
+                      </p>
                     )}
                   </Card.Body>
                 </Card>
