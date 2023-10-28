@@ -37,10 +37,9 @@ h6 {
 }
 
 .navLinkStyling:hover {
-  color: white;
-  font-size: 22px;
-  text-shadow: rgb(0, 0, 0) 1px 0 10px;  
-  font-weight: bolder;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 4px;
 }
 
 .cartStyling {
@@ -115,19 +114,19 @@ h6 {
 /* Sign In Modal Button Styling */
 .signUpModal {
   color: white !important;
-  background-color: black !important;
-  border: none;
+  background-color: rgb(92, 92, 92) !important;
+  border: rgb(92, 92, 92)
 }
 
 .signUpModal:hover {
   color: white !important;
-  background-color:  #FC0 !important;
-  border: none;
+  background-color:  black !important;
+  border: black;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: var(--bs-nav-pills-link-active-color);
-  background-color: black !important;
+  background-color: rgb(42, 42, 42) !important;
 }
 
 .nav-link {
@@ -135,7 +134,7 @@ color: black;
 }
 
 .nav-link:hover {
-  color: #0088ff;
+  color: rgb(92, 92, 92);
   }
 
 /* Wrong Page! Styling */
