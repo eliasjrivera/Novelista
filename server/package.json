@@ -10,10 +10,6 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "//": [
-        "in dependencies the below comments are true",
-        "express session is not used but would be added here",
-        "connect session sequelize is not used but would be added here" ],
     "dependencies": {
         "bcrypt": "^4.0.1",
         "express": "^4.17.1",

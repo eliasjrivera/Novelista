@@ -10,7 +10,6 @@ class User extends Model {
 
 User.init(
     {
-        // id might not be needed here
         id: {
             type: DataTypes.INTEGER,
             allowNull: false,
@@ -21,7 +20,6 @@ User.init(
             type: DataTypes.STRING,
             required: true,
             unique: true,
-            // MERN example doesnt have allowNull: false, fyi, idk if you need it
             allowNull: false,
         },
         email: {
@@ -38,7 +36,6 @@ User.init(
             required: true,
             allowNull: false,
             validate: {
-                // idk why [1]
                 len: [1],
             },
         },

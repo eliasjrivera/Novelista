@@ -3,7 +3,6 @@ const Book = require('./Book');
 
 User.hasMany(Book, {
     foreignKey: 'user_id',
-    // onDelete: 'CASCADE'
 });
 
 Book.belongsTo(User, {

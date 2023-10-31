@@ -6,7 +6,6 @@ const sequelize = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// in MVC ACT 28 Main, sessions is added to server.js but other examples in MVC dont use sessions, fyi
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

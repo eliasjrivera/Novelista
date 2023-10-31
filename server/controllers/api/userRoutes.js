@@ -4,8 +4,6 @@ const { User } = require('../../models');
 // import sign token function from auth
 const { signToken, authMiddleware } = require('../../utils/auth');
 
-// i have not added session.save to anything, this is used in MVC ACT 28 Main Controller > userRoutes.js
-
 // get a single user by either their id or their username
 router.get('/me', authMiddleware, async ({ user = null, params }, res) => {
     try {
