@@ -57,7 +57,7 @@ h6 {
   font-weight: bolder;
 }
 
-/* Search Bar/Search Body Styling */
+/* Search Bar Styling */
 .searchBarImg {
   background-image: url(../BodyImg.jpg)!important;
 }
@@ -92,11 +92,6 @@ h6 {
   font-size: 50px;
 }
 
-.cartBtnStyling:hover {
-  background-color: #0088ff;
-  border-color: #0088ff;
-}
-
 .cardSignInStyle {
   font-family: 'Rubik', sans-serif;
   color: red;
@@ -112,7 +107,7 @@ h6 {
   border: black !important;
 }
 
-/* Sign In Modal Button Styling */
+/* Sign In/Create Account Modal Styling */
 .signUpModal {
   color: white !important;
   background-color: rgb(92, 92, 92) !important;
@@ -138,7 +133,7 @@ color: black;
   color: rgb(92, 92, 92);
   }
 
-/* Wrong Page! Styling */
+/* Error/Unavailable Page Styling */
 .wrongPageStyling {
   color: white;
   font-family: 'Rubik Distressed', sans-serif;

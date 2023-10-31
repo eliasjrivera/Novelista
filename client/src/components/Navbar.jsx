@@ -6,8 +6,6 @@ import LoginForm from './LoginForm';
 
 import Auth from '../utils/auth';
 
-import { BsCart2 } from 'react-icons/bs'
-
 const AppNavbar = () => {
   // set modal display state
   const [showModal, setShowModal] = useState(false);
@@ -28,10 +26,7 @@ const AppNavbar = () => {
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
-                  {/* <Nav.Link as={Link} to='/saved'>
-                  <BsCart2 className='cartStyling'></BsCart2>
-                  </Nav.Link> */}
-                  <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>LOGOUT</span></Nav.Link>
+                  <Nav.Link onClick={Auth.logout}><span className='navLinkStyling'>SIGN OUT</span></Nav.Link>
                 </>
               ) : (
                 <Nav.Link onClick={() => setShowModal(true)}><span className='navLinkStyling'>SIGN IN</span></Nav.Link>
