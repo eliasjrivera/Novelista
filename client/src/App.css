@@ -38,7 +38,8 @@ h6 {
 
 .navLinkStyling:hover {
   border-radius: 25px;
-  border: 2px solid #ffffff;
+  border: 2px solid rgb(190, 190, 190);
+  background-color: rgb(190, 190, 190);
   padding: 4px;
 }
 
