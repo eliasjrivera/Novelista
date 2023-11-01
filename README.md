@@ -37,7 +37,9 @@ NOVELISTA is a full-stack application and an online bookstore for books, powered
 - Heroku
 
 ## Visuals
-![](./gif/app.gif)
+![](./client/public/readme_visual_0.png)
+![](./client/public/readme_visual_1.png)
+![](./client/public/readme_visual_2.png)
 
 ## Project Repo
 [NOVELISTA GitHub Repo](https://github.com/eliasjrivera/Novelista)
