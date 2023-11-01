@@ -45,7 +45,7 @@ NOVELISTA is a full-stack application and an online bookstore for books, powered
 [NOVELISTA GitHub Repo](https://github.com/eliasjrivera/Novelista)
 
 ## Deployed Site
-[NOVELISTA Deployed Site](https://secret-reaches-14806-ae6c617c547b.herokuapp.com/)
+[NOVELISTA Deployed Site]()
 
 ## Installation
 `git clone git@github.com:eliasjrivera/Novelista.git`  
